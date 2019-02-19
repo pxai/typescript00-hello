@@ -1,6 +1,6 @@
-var a : number = 10;
-var b = 'Hello';
-var i,j,k : number = 0;
+let a : number = 10;
+let b = 'Hello';
+let i,j,k : number = 0;
 
 i = j = k = 9;
 
