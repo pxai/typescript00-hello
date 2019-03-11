@@ -21,3 +21,21 @@ if (i > j) {
 } else {
     console.log('i and j are equal');
 }
+
+const level: number = 4;
+
+switch (level) {
+    case 1:
+            console.log("Low level");
+            break;
+    case 2:
+    case 3:
+            console.log("Medium level");
+            break;
+    case 4:
+            console.log("High level");
+            break;
+    default:
+            console.log("Unknown");
+            break;
+}
